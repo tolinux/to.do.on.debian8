@@ -41,9 +41,13 @@ deb-src http://security.debian.org/ jessie/updates main contrib non-free
 deb http://www.deb-multimedia.org/ jessie main non-free
 
 apt-get update
+
 apt-get -f install
+
 apt-get install deb-multimedia-keyring
+
 apt-get update
+
 apt-get upgrade
 
 ⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇
@@ -60,9 +64,13 @@ nano /etc/apt/sources.list
 deb http://packages.linuxmint.com debian import
 
 apt-get update
+
 gpg --keyserver pgp.mit.edu --recv-keys 3EE67F3D0FF405B2
+
 gpg --export 3EE67F3D0FF405B2 > 3EE67F3D0FF405B2.gpg
+
 apt-key add ./3EE67F3D0FF405B2.gpg
+
 rm ./3EE67F3D0FF405B2.gp
 
 ⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇
@@ -143,6 +151,7 @@ apt-get install gtk2-engines-murrine murrine-themes
 ●--------> install Diff tools
 
 apt-get install meld
+
 apt-get install diffuse
 
 ⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇
@@ -156,7 +165,9 @@ apt-get install gparted
 ●--------> install Hardware info
 
 apt-get install lshw lshw-gtk
+
 apt-get install hardinfo
+
 apt-get install sysinfo
 
 ⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇
@@ -164,6 +175,7 @@ apt-get install sysinfo
 ●--------> install SMART monitor
 
 apt-get install smartmontools
+
 apt-get install gsmartcontrol
 
 ⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇
@@ -177,6 +189,7 @@ apt-get install htop
 ●--------> install Tools
 
 apt-get install filezilla
+
 apt-get install galculator
 
 ⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇
@@ -201,13 +214,13 @@ apt-get install keepassx
 
 ●--------> Install CopyQ 2.2.0 On Ubuntu, Linux Mint
 
-32 bit OS
+●●● 32 bit OS
 
 wget sourceforge.net/projects/copyq/files/copyq-2.2.0/Linux/copyq_2.2.0_Ubuntu_14.04_i386.deb
 
 dpkg -i copyq_2.2.0_Ubuntu_14.04_i386.deb
 
-64 bit OS
+●●● 64 bit OS
 
 wget sourceforge.net/projects/copyq/files/copyq-2.2.0/Linux/copyq_2.2.0_Ubuntu_14.04_amd64.deb
 
@@ -276,10 +289,6 @@ apt-get install flashplugin-nonfree
 
 ⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇
 
-●--------> Install OpenJDK
-
-----------------------------------------------------
-
 ●--------> Install Oracle Java 8 (both JDK8 and JRE8) in Debian
 
 su -
@@ -321,7 +330,9 @@ apt-get install youtube-dl
 32bit OS
 
 sudo apt-get install gdebi
+
 wget download.opensuse.org/repositories/home:/colomboem/xUbuntu_12.04/i386/dukto_6.0-1_i386.deb
+
 sudo gdebi dukto_6.0-1_i386.deb
 
 64bit OS
@@ -411,7 +422,7 @@ apt-get install dragonplayer
 
 apt-get install smplayer
 
-## SMTube - YouTube browser for SMPlayer
+## Install SMTube - YouTube browser for SMPlayer
 
 apt-get install smtube
 
