@@ -547,8 +547,9 @@ dpkg-reconfigure tzdata
 
 ●--------> Email notification
 
-Run on click: thunderbird
-Run on New Messages: notify-send "New mail" "You have new messages in your inbox" -i xfce-newmail
+● Run on click : thunderbird
+
+● Run on New Messages : notify-send "New mail" "You have new messages in your inbox" -i xfce-newmail
 
 ⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇⊆⊇
 
